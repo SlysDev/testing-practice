@@ -1,4 +1,4 @@
-import reverseString from "./reverse-string.js";
+import reverseString from "../functions/reverse-string.js";
 
 it("Reverse 'Hihowareyoutoday'", () => {
     expect(reverseString("Hihowareyoutoday")).toBe("yadotuoyerawohiH");
